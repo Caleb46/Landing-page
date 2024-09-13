@@ -11,6 +11,10 @@ body {
     background-color:#f5ac3f;
 }
 
+section {
+    padding: 28px 8%;
+}
+
 header {
     width: 100%;
     padding: 28px 8%;
@@ -105,3 +109,26 @@ header {
     text-align: center;
 }
 }
+
+.buttons-média-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons-média-sociais a {
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    font-size: 1.5rem;
+    height: 40px;
+    justify-content: center;
+    text-decoration: none;
+    transition: box-shadow .3s ease;
+    width: 45px;
+}
+
+.buttons-média-sociais a:houver {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1)
+}
+
