@@ -1,0 +1,25 @@
+#Pratos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 24px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Prato {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 20px;
+    width: 25%;
+}

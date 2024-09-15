@@ -132,3 +132,15 @@ header {
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1)
 }
 
+.section-title {
+ color: #d63e12;
+ font-size: 1.563rem;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
+#foto {
+    width:5px;
+     height: 5px;
+}

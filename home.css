@@ -53,16 +53,6 @@
         width: fit-content;
     }
 
-    .shape {
-        background-color: #dba87f;
-        border-radius: 30% 30% 0% 10%;
-        height: 80%;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 50%;
-        z-index: 1;
-    }
 
     @media screen and (max-width: 1170px) {
         #home {
@@ -80,4 +70,9 @@
             text-align: center;
             width: 100%;
         }
+    }
+
+    #foto{
+width:50px;
+
     }
