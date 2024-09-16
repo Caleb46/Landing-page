@@ -5,196 +5,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="landingpage.css">
     <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="that.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="dishes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+   
     <title>Landing Page</title>
-
 </head>
-<body>
 
-    <header>
+<body> 
+   
 
-        <nav id="content">
-            <i class="fa-solid fa-pizza-slice" id="content_logo">  Pizza</i>
+    <main id="content">
 
-            <ul id="content_list">
-                <li class="content-item active">
-                    <a href="#home"> Home</a>
-                </li>
-
-                <li class='content-item'>
-                    <a href="#Cardápio"> Cardápio</a>
-                </li>
-
-                <li class='content-item'>
-                    <a href="#rating"> Avaliações</a>
-                </li>
-                
-            </ul>
-
-            <button class="btn-default">
-                Pedido aqui
-            </button>
-
-            <button class="mobile_btn">
-                <i class="fa-solid fa-bars"></i>
-
-            </button>
-        </nav>
-
-        <div id="mobile_menu">
-            <ul id="mobile_content_list">
-
-                <li class='content-item'>
-                    <a href="#home"> Início</a>
-                </li>
-
-                <li class='content-item'>
-                    <a href="#menu"> Cardápio</a>
-                </li>
-
-                <li class='content-item'>
-                    <a href="#rating"> Avaliações</a>
-                </li>
-
-            </ul>
-            <button class="btn-default">
-                Pedido aqui
-            </button>
-
-        </div>
-    </header>
-
-  <main id="conteudo">
-       <section id="home">
+        <section id="home">
             <div class="shape"></div>
             <div id="cta">
-                <h1 class="titulo">
-                    Qual vai ser
+                <h1 class="title">
+                    O sabor da sua
+                    <span>ESCOLHA</span>
                 </h1>
-                <p class="descrição">
-                    descrição aqui
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit ut aliquam, purus sit amet
                 </p>
-                
+
                 <div id="cta_buttons">
                     <a href="#" class="btn-default">
-                     Cardápio na mão   
+                        Ver cardápio
                     </a>
 
-                    <a href="tel: numero aqui" id="número_de_celular_button">
+                    <a href="tel:+55555555555" id="phone_button">
                         <button class="btn-default">
-                            <i class="fa-solid fa-phone"> </i>  
+                            <i class="fa-solid fa-phone"></i>
                         </button>
-                        (+55)xxxxxxxx
+                        (xx) xxxxx-xxxx
                     </a>
                 </div>
 
-                <div class="buttons-média-sociais ">
+                <div class="social-media-buttons">
                     <a href="">
-                       <i class="fa-brands fa-facebook"></i>
-                       </a>
-
-                       <a href="">
                         <i class="fa-brands fa-whatsapp"></i>
+                    </a>
 
-                        </a><a href="">
-                            <i class="fa-brands fa-instagram"></i>
-                            </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
                 </div>
-            <div id="banner">
-             <img src="images/pizza 1.jpeg" alt="">
             </div>
 
-           <section id="menu">
-                <h2 class="section-title"> Cardápio</h2>
-                <h3 class="section-subtitle"> Pizza especiais</h3>
+            <div id="banner">
+                <img src="images/pizza.jpg" alt="">
+            </div>
+        </section>
 
-                <div id="Pratos">
-                   <div class="Prato">
-                       <div class="Prato-heart">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossas pizzas especiais</h3>
+
+            <div id="pizzas">
+                <div class="pizza">
+                    <div class="pizza-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="images/piz 5.jpg" class="pizza-image" alt="">
+
+                    <h3 class="pizza-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="pizza-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="pizza-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="pizza-price">
+                        <h4>R$20,00</h4>
                     </div>
                 </div>
 
-                <img src="images/4 quiejos.jpeg" class= Prato-heart alt="">
-
-                    <h3 class="pizza-nome">
-                       4 quiejos
-                    </h3>
-
-                    <span class="pizza-descrição">
-                      4 quiejos, tomate, etc.
-                    </span>
-
-                    <div class="pizza-preço">
-                       <h4> R$25,00</h4>
+                <div class="pizza">
+                    <div class="pizza-heart">
+                        <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <button class="btn-default">
-                       <i class="fa-solid fa-basket-shopping"></i>
-                    </button>
+                    <img src="images/pizza 1.jpeg" class="pizza-image" alt="">
 
-                <img src="images/4 quiejos.jpeg" class=Prato-heart alt="">
-
-                    <h3 class="pizza-nome">
-                        4 quiejos
+                    <h3 class="pizza-title">
+                        Lorem Ipsum
                     </h3>
 
-                    <span class="pizza-descrição">
-                       4 quiejos, tomate, etc.
+                    <span class="pizza-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </span>
 
-                    <div class="pizza-preço">
-                        <h4> R$30,00</h4>
+                    <div class="pizza-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
 
-                    <button class="btn-default">
-                      <i class="fa-solid fa-basket-shopping"></i>
-                    </button>
+                    <div class="pizza-price">
+                        <h4>R$20,00</h4>
+                    </div>
+                </div>
 
-                <img src="images/4 quiejos.jpeg" alt="">
+                <div class="pizza">
+                    <div class="pizza-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
 
-                    <h3 class="pizza-nome">
-                      4 quiejos
+                    <img src="images/pizza 1.jpeg" class="pizza-image" alt="">
+
+                    <h3 class="pizza-title">
+                        Lorem Ipsum
                     </h3>
 
-                    <span class="pizza-descrição">
-                      4 quiejos, tomate, etc.
+                    <span class="pizza-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </span>
 
-                    <div class="pizza-preço">
-                      <h4> R$45,00</h4>
+                    <div class="pizza-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
 
-                    <button class="btn-default">
-                     <i class="fa-solid fa-basket-shopping"></i>
-                    </button>
+                    <div class="pizza-price">
+                        <h4>R$20,00</h4>
+                    </div>
+                </div>
 
-                <img src="images/4 quiejos.jpeg" alt="">
+                <div class="pizza">
+                    <div class="pizza-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
 
-                    <h3 class="pizza-nome">
-                      4 quiejos
+                    <img src="images/4 quiejos.jpeg" class="pizza-image" alt="">
+
+                    <h3 class="pizza-title">
+                        Lorem Ipsum
                     </h3>
 
-                    <span class="pizza-descrição">
-                     4 quiejos, tomate, etc.
+                    <span class="pizza-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </span>
 
-                    <div class="pizza-preço">
-                      <h4> R$25,00</h4>
+                    <div class="pizza-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
 
-                    <button class="btn-default">
-                      <i class="fa-solid fa-basket-shopping"></i>
-                    </button>
-
-            </section>              
-        </section>      
+                    <div class="pizza-price">
+                        <h4>R$20,00</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
-    <script src="javascript.js"></script>
-    
 </body>
 </html>
